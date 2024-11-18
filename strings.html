@@ -1,0 +1,32 @@
+<!-- Guy Scamp -->
+ <!-- Document Type Tag -->
+ <!DOCTYPE html>
+ <!-- HTML Open Tag -->
+ <html>
+     <!-- Head Open Tag -->
+     <head>
+         <!-- Title Tag -->
+         <title>Adding Sound</title>
+         <!-- CSS Link Tag-->
+         <link rel="stylesheet" href="main.css">
+     <!-- Head Close Tag -->
+     </head>
+     <!-- Body Open Tag -->
+     <body> 
+        <!-- We define the id and src of our audio file within the audio tags -->
+        <audio id="sound1" src="ding.mp3" preload="auto"></audio>
+        <!-- Form Open Tag --> 
+        <form>
+            <label for="Enter your name and zip code">Enter your name and zip code:</label>
+            <input type="text" id="first" name="First Name" placeholder="First Name" required />
+            <input type="text" id="last" name="Last Name" placeholder="Last Name" required />
+            <input type="text" id="zip" name="Zip Code" placeholder="Zipcode" required />
+            <button id="submit" class="button button1" onclick="validateInput()">Submit</button>
+        <!-- Form Close Tag-->
+        </form>
+        <!-- This is External JavaScript -->
+        <script src="code.js" type="text/javascript"></script>  
+    <!-- Body Close Tag-->
+    </body>
+<!-- HTML Open Tag-->
+</html >  
